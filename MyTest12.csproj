@@ -115,6 +115,9 @@
       <RequiredTargetFramework>3.5</RequiredTargetFramework>
     </Reference>
     <Reference Include="System.Drawing" />
+    <Reference Include="System.Drawing.Common">
+      <HintPath>..\packages\System.Drawing.Common.9.0.3\lib\net462\System.Drawing.Common.dll</HintPath>
+    </Reference>
     <Reference Include="System.Windows.Forms" />
     <Reference Include="System.Xml" />
     <Reference Include="System.Xml.Linq">
@@ -256,6 +259,7 @@
       <BoundTo>2d1baa50-de38-4ef3-bed8-e90af03f07c0</BoundTo>
       <recordtableid>6de6472a-21f6-4fd4-82a5-0833f391e536</recordtableid>
     </None>
+    <None Include="packages.config" />
     <None Include="Recording1.rxrec">
       <BoundTo>2d1baa50-de38-4ef3-bed8-e90af03f07c0</BoundTo>
       <id>a1f5288a-695e-44ec-adab-a8e926424d35</id>
