@@ -122,6 +122,16 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AcceptAlphaVersion.cs">
+      <DependentUpon>AcceptAlphaVersion.rxrec</DependentUpon>
+      <id>50ffea45-c19b-4012-9bad-637a4231693b</id>
+      <BoundTo>5f8cfbd7-8c97-41b1-a491-2a71e8c7a971</BoundTo>
+    </Compile>
+    <Compile Include="AcceptAlphaVersion.UserCode.cs">
+      <DependentUpon>AcceptAlphaVersion.rxrec</DependentUpon>
+      <id>24674618-bf67-46c6-8d5f-f49b95cd7844</id>
+      <BoundTo>5f8cfbd7-8c97-41b1-a491-2a71e8c7a971</BoundTo>
+    </Compile>
     <Compile Include="AssemblyInfo.cs">
       <id>eb6e96ee-f1c1-465e-8698-1d2a3805835f</id>
     </Compile>
@@ -143,6 +153,26 @@
       <RepositoryCode>true</RepositoryCode>
       <id>97b15c23-2a30-4b16-a9bf-4238f3b7aa0a</id>
     </Compile>
+    <Compile Include="NewPlanActivateMandible.cs">
+      <DependentUpon>NewPlanActivateMandible.rxrec</DependentUpon>
+      <id>0ef03319-919d-4ec5-b10b-bdff901b5b1c</id>
+      <BoundTo>1438e6e9-4a5f-49d5-9628-320037d2f3a7</BoundTo>
+    </Compile>
+    <Compile Include="NewPlanActivateMandible.UserCode.cs">
+      <DependentUpon>NewPlanActivateMandible.rxrec</DependentUpon>
+      <id>03d48708-871b-41af-8439-f47ab78e9eb8</id>
+      <BoundTo>1438e6e9-4a5f-49d5-9628-320037d2f3a7</BoundTo>
+    </Compile>
+    <Compile Include="NewPlanClickOk.cs">
+      <DependentUpon>NewPlanClickOk.rxrec</DependentUpon>
+      <id>3fffac5c-aa91-4c16-b1e6-f5241ccce2d9</id>
+      <BoundTo>c88a90d1-f074-4f2b-bdb5-76b09d23caa1</BoundTo>
+    </Compile>
+    <Compile Include="NewPlanClickOk.UserCode.cs">
+      <DependentUpon>NewPlanClickOk.rxrec</DependentUpon>
+      <id>a5874be7-bc89-4ac6-80eb-49dedbef1d9c</id>
+      <BoundTo>c88a90d1-f074-4f2b-bdb5-76b09d23caa1</BoundTo>
+    </Compile>
     <Compile Include="Program.cs">
       <id>b5d13b01-10be-4217-8664-667799aff64f</id>
     </Compile>
@@ -158,6 +188,26 @@
       <UserCode>true</UserCode>
       <id>6a663b98-4169-4275-83c1-16e17c2d3b70</id>
     </Compile>
+    <Compile Include="SelectImplantByFilter.cs">
+      <DependentUpon>SelectImplantByFilter.rxrec</DependentUpon>
+      <id>5ffc1b5c-14e4-483c-8cb4-7099cbd421af</id>
+      <BoundTo>94d1573e-3b6c-44af-b5bf-1eea6df0d75d</BoundTo>
+    </Compile>
+    <Compile Include="SelectImplantByFilter.UserCode.cs">
+      <DependentUpon>SelectImplantByFilter.rxrec</DependentUpon>
+      <id>50fc2053-272e-4c18-b445-108663566f9c</id>
+      <BoundTo>94d1573e-3b6c-44af-b5bf-1eea6df0d75d</BoundTo>
+    </Compile>
+    <Compile Include="SelectPatientOnPatientDatabaseFrm.cs">
+      <DependentUpon>SelectPatientOnPatientDatabaseFrm.rxrec</DependentUpon>
+      <id>7c9c5133-287b-4842-a2d2-3fedfdb7e15e</id>
+      <BoundTo>7c715514-e062-47b8-8623-323fabdfe636</BoundTo>
+    </Compile>
+    <Compile Include="SelectPatientOnPatientDatabaseFrm.UserCode.cs">
+      <DependentUpon>SelectPatientOnPatientDatabaseFrm.rxrec</DependentUpon>
+      <id>3996a6b3-5e52-47ba-a3d4-108dfa45b749</id>
+      <BoundTo>7c715514-e062-47b8-8623-323fabdfe636</BoundTo>
+    </Compile>
     <Compile Include="StartAUT.cs">
       <BoundTo>5f27a768-28fd-4586-8c82-cc74f7f01840</BoundTo>
       <DependentUpon>StartAUT.rxrec</DependentUpon>
@@ -172,6 +222,11 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
+    <None Include="AcceptAlphaVersion.rxrec">
+      <id>5f8cfbd7-8c97-41b1-a491-2a71e8c7a971</id>
+      <BoundTo>2d1baa50-de38-4ef3-bed8-e90af03f07c0</BoundTo>
+      <recordtableid>d83c5ea8-95da-4306-ae23-d3ca6f6a1127</recordtableid>
+    </None>
     <None Include="app.config">
       <id>6cbb6e88-1854-4aa2-ada5-136c225ff457</id>
     </None>
@@ -191,10 +246,30 @@
       <repoid>c6c51883-cebe-4b04-8d5d-c62d420367ad</repoid>
       <reporootid>3e371b82-25a6-46b4-a68b-f5f04410191d</reporootid>
     </None>
+    <None Include="NewPlanActivateMandible.rxrec">
+      <id>1438e6e9-4a5f-49d5-9628-320037d2f3a7</id>
+      <BoundTo>2d1baa50-de38-4ef3-bed8-e90af03f07c0</BoundTo>
+      <recordtableid>50f75019-5e7a-4d31-a174-7c05bacfbd70</recordtableid>
+    </None>
+    <None Include="NewPlanClickOk.rxrec">
+      <id>c88a90d1-f074-4f2b-bdb5-76b09d23caa1</id>
+      <BoundTo>2d1baa50-de38-4ef3-bed8-e90af03f07c0</BoundTo>
+      <recordtableid>6de6472a-21f6-4fd4-82a5-0833f391e536</recordtableid>
+    </None>
     <None Include="Recording1.rxrec">
       <BoundTo>2d1baa50-de38-4ef3-bed8-e90af03f07c0</BoundTo>
       <id>a1f5288a-695e-44ec-adab-a8e926424d35</id>
       <recordtableid>b0d04e27-2597-4d26-a9a8-9dd378baa9bc</recordtableid>
+    </None>
+    <None Include="SelectImplantByFilter.rxrec">
+      <id>94d1573e-3b6c-44af-b5bf-1eea6df0d75d</id>
+      <BoundTo>2d1baa50-de38-4ef3-bed8-e90af03f07c0</BoundTo>
+      <recordtableid>b5294178-dca4-4033-ae20-8cd0ee525750</recordtableid>
+    </None>
+    <None Include="SelectPatientOnPatientDatabaseFrm.rxrec">
+      <id>7c715514-e062-47b8-8623-323fabdfe636</id>
+      <BoundTo>2d1baa50-de38-4ef3-bed8-e90af03f07c0</BoundTo>
+      <recordtableid>8799a8a5-8eaa-4c9b-b167-dd6bd38350a3</recordtableid>
     </None>
     <None Include="StartAUT.rxrec">
       <BoundTo>2d1baa50-de38-4ef3-bed8-e90af03f07c0</BoundTo>
